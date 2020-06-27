@@ -10,6 +10,7 @@ module.exports = {
     alreadyExitis: 'User Already Exitis',
   },
   auth: {
+    unAuthorized: 'Not Authorized or Invalid Token',
     invalidToken: 'Invaid Token',
     noToken: 'Access denied. No Token Provied.',
   },

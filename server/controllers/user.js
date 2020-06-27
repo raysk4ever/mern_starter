@@ -13,5 +13,14 @@ module.exports = {
       console.log('err', err.message)
       responseHandler(res, true, messages.somethingWentWrong, null, httpStatusCode.notImplemented);
     }
+  },
+  async loginUser(req, res) {
+    try{
+      const {email, password} = req.body;
+      
+    }catch(err) {
+      console.log('err', err.message)
+      responseHandler(res, true, messages.somethingWentWrong, null, httpStatusCode.notImplemented);
+    }
   }
 }
